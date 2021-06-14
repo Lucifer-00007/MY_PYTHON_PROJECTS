@@ -53,7 +53,12 @@
 ---
 
 ## Json_In_Python(Reading External Json File).py
-- 
+- Python Program to read the content of json file in an ordered manner.
+- This progran might not work with Nested JSON files (but it work with most of them).
+- If there is some error then you can always make some minor changes according to your requirement.
+---
+
+
 
 
 
