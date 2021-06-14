@@ -3,7 +3,7 @@
 # 	  Now we want "file_range=5", ie. we will create a folder name '1-5' and in this '1-5' folder will contain "1.txt, 2.txt, 3.txt, 4.txt, 5.txt" ,
 #     Similarly '6-10' folder will contain "6.txt, 7.txt, 8.txt, 9.txt, 10.txt" and so on..
 #     In this way this program will make a set of 5(file_range) files and separate them in a folder.
-#     It will continue this process until all files are separated in folders.
+#     It will continue this process according to the number of files present.
 #
 # NOTE: This Program will only create the "Folders" according to the "File_Range" but it will not move the files to the created folders.	
 
