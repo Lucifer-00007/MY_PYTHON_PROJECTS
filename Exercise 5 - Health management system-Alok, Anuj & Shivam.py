@@ -3,7 +3,7 @@
 
 
 
-print("Select a number:","\n 1.Lock","\n 2.Retrive")
+print("Select a number:","\n 1.Add data","\n 2.Retrive data")
 a =int(input("Enter= "))
 # print(a)
 
@@ -15,15 +15,15 @@ def getmytime():
 
 #------To add new items----------#
 if a==1: 
-    print("Select a number:", "\n 1.Alok", "\n 2.Anuj","\n 3.Shivam")
+    print("Select a number to add data to your desired person:", "\n 1.Alok", "\n 2.Anuj","\n 3.Shivam")
     b= int(input("Enter= "))
     # print(b)
 
     if b==1:       #-----------------------------Alok------------------------------#
-        print("Select a number:", "\n 1.Dite", "\n 2.Exercise")
+        print("Select a number to add data:", "\n 1.diet", "\n 2.Exercise")
         d = int(input("Enter= "))
-        if d==1:  #dite
-            j=open("Alok_Dite.txt","a")
+        if d==1:  #diet
+            j=open("Alok_diet.txt","a")
             j1=input("add your food= ")
             p = getmytime()
             j.write(f"[ {p} ],{j1} \n")
@@ -36,10 +36,10 @@ if a==1:
             j1.close()
 
     elif b==2:     #-----------------------------Anuj------------------------------#
-        print("Select a number:", "\n 1.Dite", "\n 2.Exercise")
+        print("Select a number:", "\n 1.diet", "\n 2.Exercise")
         d = int(input("Enter= "))
-        if d == 1:  #dite
-            k=open("Anuj_dite.txt","a")
+        if d == 1:  #diet
+            k=open("Anuj_diet.txt","a")
             k2=input("add your food= ")
             q=getmytime()
             k.write(f"[ {q} ],{k2} \n")
@@ -52,16 +52,16 @@ if a==1:
             k1.close()
 
     else:          #-----------------------------Shivam-----------------------------#
-        print("Select a number:", "\n 1.Dite", "\n 2.Exercise")
+        print("Select a number:", "\n 1.diet", "\n 2.Exercise")
         d = int(input("Enter= "))
-        if d == 1:  #dite
-            m=open("Shivam_dite.txt","a")
+        if d == 1:  #diet
+            m=open("Shivam_diet.txt","a")
             m2=input("add your food= ")
             r=getmytime()
             m.write(f"[ {r} ],{m2} \n")
             m.close()
         else:       #exercise
-            m1 = open("Shivam_dite.txt", "a")
+            m1 = open("Shivam_diet.txt", "a")
             m3=input("add new exercise= ")
             r1= getmytime()
             m1.write(f"[ {r1} ],{m3} \n")
@@ -75,10 +75,10 @@ else:
     c = int(input("Enter= "))
     # print(c)
     if c==4:      #-----------------------------Alok------------------------------#
-        print("Select a number:", "\n 1.Dite", "\n 2.Exercise")
+        print("Select a number:", "\n 1.diet", "\n 2.Exercise")
         d = int(input("Enter= "))
-        if d == 1:  # dite
-            j = open("Alok_dite.txt")
+        if d == 1:  # diet
+            j = open("Alok_diet.txt")
             print(j.read())
             j.close()
         else:  # exercise
@@ -87,10 +87,10 @@ else:
             j1.close()
 
     elif c==5:    #-----------------------------Anuj------------------------------#
-        print("Select a number:", "\n 1.Dite", "\n 2.Exercise")
+        print("Select a number:", "\n 1.diet", "\n 2.Exercise")
         d = int(input("Enter= "))
-        if d == 1:  # dite
-            k = open("Anuj_dite.txt")
+        if d == 1:  # diet
+            k = open("Anuj_diet.txt")
             print(k.read())
             k.close()
         else:  # exercise
@@ -99,10 +99,10 @@ else:
             k1.close()
 
     else:         #-----------------------------Shivam-----------------------------#
-        print("Select a number:", "\n 1.Dite", "\n 2.Exercise")
+        print("Select a number:", "\n 1.diet", "\n 2.Exercise")
         d = int(input("Enter= "))
-        if d == 1:  # dite
-            m = open("Shivam_dite.txt")
+        if d == 1:  # diet
+            m = open("Shivam_diet.txt")
             print(m.read())
             m.close()
         else:  # exercise
