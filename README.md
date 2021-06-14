@@ -40,5 +40,31 @@
 - Also print no. of wins made by user and pc.
 ---
 
+## Exercise 7 - Healthy_programer.py
+- Python program to maintain a good health of a programer.
+- Once the user start this program in the back-ground, it will give a reminder to:
+  - `Drink Water` -- Every 1hr (437.5ml each hour) in bwt 9am-5pm (Total of 3.5L each day). -- `Drank` button(To reset reminder).
+  - `Eye Execise` -- Every 30 min exercise of the eyes. -- `EyDone` button(To reset the reminder).
+  - `Physical Activity` -- Every 45 min a physical activity. -- `ExDone`(To reset the reminder).
+
+- You can always change the "Reminder-Time" according to your requirement. 
+- This program will generate a "Logfile" to keep all the time stamp and the record of the exact moment when the user " Drinks Water ", " Does Eye Exercise ", and " Performs Pysical activity ".
+- You will have to add three short-music files with this program. Name these files exactly as `water.mp3`, `eye.mp3` and `physical.mp3` else there will be an error!. 
+---
+
+## Json_In_Python(Reading External Json File).py
+- 
+
+
+
+
+
+
+
+
+
+
+
+
 
 
