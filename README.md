@@ -30,3 +30,15 @@
 - Without using external modules and functions (other than date-time).
 - This program gives 2 choice to the user, ie. either to "add new information" or to "view the existing data". 
 - `Note: It is recommended to add your data before you view the existing data or this program might give some error!!`
+---
+
+## Exercise 6 - Snake-Water-Gun game.py
+- Game is played between user and pc.
+- Pc will get a random value using "random module" .
+- User will get 10 opportunity to play the game.
+- Whoever makes max number of win out of 10 times will be the winner.
+- Also print no. of wins made by user and pc.
+---
+
+
+
