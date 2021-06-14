@@ -98,11 +98,11 @@ for j in range(k):
 	#Here we are printing all the output in Row-Columns(Tabular) format.  		
 	p=f"| Your password is: {pa} |"
 	print(p)
-	print(f"| No. Of Lowercase: {q}{' '*(l)}|")  #Here we are printing the values and also adding gaps to fill up the table using " {' '*(l)} ".
-	print(f"| No. Of Uppercase: {r}{' '*(l)}|")  
-	print(f"| No. Of Numbers: {s}{' '*(l+2)}|")	 		
-	print(f"| No. Of Symbols: {t}{' '*(l+2)}|")
-	print("_"*len(p))             #Here we are printing the footer line. Actually we are printing "_" multiple to the lenth of space taken by "| Your password is: {pa} | " in line 95.     
+	print(f"| No. Of Lowercase: {q}{' '*(l-len(str(q)))} |")  #Here we are printing the values and also adding gaps to fill up the table using " {' '*(l)} ".
+	print(f"| No. Of Uppercase: {r}{' '*(l-len(str(r)))} |")  
+	print(f"| No. Of Numbers: {s}{' '*(l+2-len(str(s)))} |")         
+	print(f"| No. Of Symbols: {t}{' '*(l+2-len(str(t)))} |")
+	print("_"*len(p))                 						  #Here we are printing the footer line. Actually we are printing "_" multiple to the lenth of space taken by "| Your password is: {pa} | " in line 95. 	
 
 
 
