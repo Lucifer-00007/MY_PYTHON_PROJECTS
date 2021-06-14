@@ -1,12 +1,12 @@
 #Exercise 6 (Q-V40)
 # Make a Snake-Water-Gun game.
 # Use For/While loop
-# Game is played between u and pc.
+# Game is played between user and pc.
 # Pc will get a random value using "random module" .
-# U will get  10 chance to p play the game.
-# Max no. of win out of 10 times will give the winner.
-# Also print no. of wins made by u and pc.
-# Solution in (S-V49).
+# User will get 10 opportunity to play the game.
+# Whoever makes max no. of win out of 10 times will be the winner.
+# Also print no. of wins made by user and pc.
+
 
 
 
