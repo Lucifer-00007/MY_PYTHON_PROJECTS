@@ -13,7 +13,8 @@ def getmytime():
 # a=getmytime()
 # print(f"[ {a} ]")
 
-if a==1:   #------To add new items----------#
+#------To add new items----------#
+if a==1: 
     print("Select a number:", "\n 1.Alok", "\n 2.Anuj","\n 3.Shivam")
     b= int(input("Enter= "))
     # print(b)
@@ -66,8 +67,10 @@ if a==1:   #------To add new items----------#
             m1.write(f"[ {r1} ],{m3} \n")
             m1.close()
 
-
-else:    #------To view the content----------#
+            
+            
+#------To view the content----------#
+else:    
     print("Select a number:", "\n 4.Alok", "\n 5.Anuj", "\n 6.Shivam")
     c = int(input("Enter= "))
     # print(c)
