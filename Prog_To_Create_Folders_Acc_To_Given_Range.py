@@ -38,20 +38,30 @@
 import math,os
 
 Source_path=input("Enter The Path Of The Target Files =")
-File_list_Name = [f.name for f in os.scandir(Source_path) if f.is_file()]      #Here we are getting new list of File
-First_File=File_list_Name[0]
-Last_file=File_list_Name[len(File_list_Name) - 1]
+File_list_Name = [f.name for f in os.scandir(Source_path) if f.is_file()]   
+
+Sorted_File_list_Name= sorted(File_list_Name, key=lambda ele: int(ele.split(".")[0]))
+
+# print(*(File_list_Name), sep="\n")      #This is for testing purpose.
+
+First_File=Sorted_File_list_Name[0]
+# print(First_File)
+
+
+Last_file=Sorted_File_list_Name[len(File_list_Name)-1]
+# print(Last_file)
+
 
 sp=int(First_File.split(".")[0])                               #Here we take the first-file-name(ie. starting number) from the user.
 ep=int(Last_file.split(".")[0])                                #Here we take the last-file-name(ie. ending number) from the user.
 
-frange=int(input("Enter The Range ="))               #Here we take the "file-range" for the "folder-name that we are going to create".
-frange=5                                               #This is for testing purpose.
-Path_Of_Folders=input("Enter Your Path Here =")       #Here we enter the path where we are going to create the folders.
+frange=int(input("Enter The Range ="))                   #Here we take the "file-range" for the "folder-name that we are going to create".
+Path_Of_Folders=input("Enter Your Path Here =")        #Here we enter the path where we are going to create the folders.
+# frange=5                                              #This is for testing purpose.
+# Path_Of_Folders=Source_path                            #This is for testing purpose. 
 
 my_iter=math.ceil((ep-sp+1)/frange)                    #Here we getting the "value of number of required folders".
 
-print(f"\nThe New Folders at [{Path_Of_Folders}] are:-")
 
 for i in range(my_iter):                       #Here we are iterating the loop according to the "number of required folders".
     n=sp+frange*i
@@ -62,6 +72,9 @@ for i in range(my_iter):                       #Here we are iterating the loop a
     s=f"{n}-{k}"                              #Storing the folders name.
     os.chdir(Path_Of_Folders)                  #Changing the path to the location where we want to create the new folders.
     os.makedirs(s)                              #Finally creating the folders.
+
+print(f"\nThe New Folders at [{Path_Of_Folders}] are:-")
+print(*[f.name for f in os.scandir(Source_path) if f.is_dir()], sep="\n")      #Here we are getting new list of folder
 
 
 
