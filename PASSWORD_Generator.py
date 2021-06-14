@@ -45,7 +45,7 @@
 #Type2:
 import random
 
-l=int(input("Enter the lenth of password ="))
+l=int(input("Enter the length of password ="))
 # l=15   #This value is taken for testing purpose
 
 k=int(input("Enter the quantity of passwords ="))
