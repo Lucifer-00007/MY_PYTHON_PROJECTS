@@ -1,4 +1,5 @@
 # Index of MY_PYTHON_PROJECTS:
+ ---
  - Exercise 4 - Check bool to print the pattern.py
  - Exercise 5 - Health management system-Alok, Anuj & Shivam.py
  - Exercise 6 - Snake-Water-Gun game..py
@@ -15,3 +16,10 @@
  - Prog_To_Sort_And_Move_Files_To_Folder.py
  - Web_Scraping(Without API).py
  - Web_Scraping(with weather API).py
+---
+
+
+## Exercise 4 - Check bool to print the pattern.py
+- Python program to take a variable from user and typecast it to boolean. 
+- Made a condition to check weather it(ie bool) is true or false. 
+- Now if the condition is True print a rightangle triangle else inverted right angle triangle for  vice versa.
