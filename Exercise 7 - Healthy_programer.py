@@ -111,12 +111,12 @@ if __name__ == '__main__':
     init_water = time()
     init_eyes = time()
     init_exercise = time()
-    # watersecs = 40*60
-    # eyessecs = 45*60
-    # exsecs = 30*60
-    watersecs = 1*30  #for Testing Purpose
-    eyessecs = 0.5*30 #for Testing Purpose
-    exsecs = 0.75*30  #for Testing Purpose
+    watersecs = 40*60
+    eyessecs = 45*60
+    exsecs = 30*60
+#     watersecs = 1*30  #for Testing Purpose
+#     eyessecs = 0.5*30 #for Testing Purpose
+#     exsecs = 0.75*30  #for Testing Purpose
 
     while True:
         if time() - init_water > watersecs:
