@@ -16,6 +16,8 @@
  - **Prog_To_Sort_And_Move_Files_To_Folder.py**
  - **Web_Scraping(Without API).py**
  - **Web_Scraping(with weather API).py**
+ - **Mini Project - Library of Books**
+ - **Notification_Test_With_Logs**
 ---
 
 
