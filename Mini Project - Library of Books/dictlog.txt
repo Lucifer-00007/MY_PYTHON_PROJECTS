@@ -1,0 +1,61 @@
+[Book_list] of 'Lucifer-World':-
+Pentesting
+Ethical hacking
+Kali Linux
+Termux Basics
+C++ For The Beginners
+Python
+Linux
+Web Development
+HTML
+CSS
+JavaScript
+
+[Book_list] of 'Lucifer-World':-
+Pentesting
+Ethical hacking
+Kali Linux
+Termux Basics
+C++ For The Beginners
+Python
+Linux
+Web Development
+HTML
+CSS
+JavaScript
+
+Issued Book-User_Name Log:-
+[Issued] [python] is issued by [raj]
+
+[Book_list] of 'Lucifer-World':-
+Pentesting
+Ethical hacking
+Kali Linux
+Termux Basics
+C++ For The Beginners
+Python
+Linux
+Web Development
+HTML
+CSS
+JavaScript
+
+Returned Book-User_Name Log:-
+[Return_Book] [python] is returned by [raj]
+
+Add_Book Book-User_Name Log:-
+[Add_Book] [Freedom123] is added by [raju]
+
+[Book_list] of 'Lucifer-World':-
+Pentesting
+Ethical hacking
+Kali Linux
+Termux Basics
+C++ For The Beginners
+Python
+Linux
+Web Development
+HTML
+CSS
+JavaScript
+freedom123
